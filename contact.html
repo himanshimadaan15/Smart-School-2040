@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Smart School 2040</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Smart School 2040</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="KavyaandHarshita.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="learning.html" class="nav-link">Learning</a></li>
+                <li><a href="facility.html" class="nav-link">Facilities</a></li>
+                <li><a href="features.html" class="nav-link">Features</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+<section class="hero hero-contact">
+        <div class="hero-content">
+            <h1>Get In Touch</h1>
+            <p>Ready to transform your child's education? Let's talk about their future at Smart School 2040</p>
+            <div class="hero-buttons">
+                <a href="#contact-form" class="btn btn-primary">Contact Form</a>
+                <a href="#location" class="btn btn-secondary">Visit Us</a>
+            </div>
+        </div>
+        <div class="hero-image">
+    <div class="floating-card">
+        <i class="fas fa-user-graduate"></i>
+        <span>Admissions</span>
+    </div>
+    <div class="floating-card">
+        <i class="fas fa-map-marked-alt"></i>
+        <span>Tours</span>
+    </div>
+    <div class="floating-card">
+        <i class="fas fa-question-circle"></i>
+        <span>Enquiries</span>
+    </div>
+</div>
+    </section>
+
+    <section id="location" class="contact-info">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 4rem; color: #2563eb;">Contact Information</h2>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                    <h3>Visit Us</h3>
+                    <p>123 Innovation Drive<br>Tech City, TC 2040<br>United States</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+1-555-2040-1234" style="color: inherit; text-decoration: none;">+1 (555) 2040-1234</a><br>
+                    <a href="tel:+1-555-2040-5678" style="color: inherit; text-decoration: none;">+1 (555) 2040-5678</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-envelope contact-icon"></i>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:admissions@smartschool2040.com" style="color: inherit; text-decoration: none;">admissions@smartschool2040.com</a><br>
+                    <a href="mailto:info@smartschool2040.com" style="color: inherit; text-decoration: none;">info@smartschool2040.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock contact-icon"></i>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                    Saturday: 9:00 AM - 4:00 PM<br>
+                    Sunday: Closed</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-form" class="contact-form-section">
+        <div class="container">
+            <div class="contact-form">
+                <h2 style="text-align: center; margin-bottom: 2rem; color: #2563eb;">Send us a Message</h2>
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>First Name</label>
+                            <input type="text" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Last Name</label>
+                            <input type="text" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="tel" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Interest</label>
+                        <select name="interest" required>
+                            <option value="">Select an option</option>
+                            <option value="admissions">Admissions & Enrollment</option>
+                            <option value="tour">Campus Tour</option>
+                            <option value="programs">Learning Programs</option>
+                            <option value="facilities">Facilities Information</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Student Grade Level</label>
+                        <select name="grade">
+                            <option value="">Optional - Select grade level</option>
+                            <option value="foundation">Foundation (Ages 4-8)</option>
+                            <option value="core">Core (Ages 9-14)</option>
+                            <option value="advanced">Advanced (Ages 15-18)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" placeholder="Tell us more about your inquiry..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
